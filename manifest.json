@@ -2,5 +2,18 @@
     "manifest_version": 3,
     "name": "Sherlock",
     "version": "1.0",
-    "description": "A browser information changing extension for Chrome"
+    "description": "A browser information changing extension for Chrome",
+    "backgroud": {
+        "service_worker": "worker.js"
+    },
+    "action": {
+        "default_popup": "sherlock.html",
+        "default_title": "Sherlock",
+        "default_icon": {
+            "16": "images/icon-16.png",
+            "32": "images/icon-32.png",
+            "48": "images/icon-48.png",
+            "128": "images/icon-128.png"
+        }
+    }
 }
