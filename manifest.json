@@ -1,13 +1,18 @@
 {
     "manifest_version": 3,
     "name": "Sherlock",
-    "version": "1.0",
-    "description": "A browser information changing extension for Chrome",
-    "backgroud": {
-        "service_worker": "worker.js"
-    },
+    "version": "0.1.0",
+    "description": "A browser information spoofer extension for Chrome",
+    "permissions": [
+        "storage",
+        "declarativeNetRequest",
+        "declarativeNetRequestFeedback"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
     "action": {
-        "default_popup": "sherlock.html",
+        "default_popup": "popup.html",
         "default_title": "Sherlock",
         "default_icon": {
             "16": "images/icon-16.png",
