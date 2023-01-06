@@ -5,6 +5,7 @@
     "description": "A browser information spoofer extension for Chrome",
     "permissions": [
         "storage",
+        "clipboardRead",
         "declarativeNetRequest",
         "declarativeNetRequestFeedback"
     ],
